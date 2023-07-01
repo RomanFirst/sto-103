@@ -1,0 +1,12 @@
+{
+  "workbench.preferredDarkColorTheme": "Kimbie Dark",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.autoClosingQuotes": "always",
+  "files.eol": "\n",
+  "i18n-ally.localesPaths": ["locales"]
+}
