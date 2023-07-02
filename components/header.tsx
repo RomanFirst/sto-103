@@ -13,7 +13,6 @@ const carlito = Carlito({ subsets: ["cyrillic"], weight: "400" });
 
 export default function Header({ openModal }: { openModal: () => void }) {
   const { t, lang } = useTranslation("");
-  console.log("lang", lang);
 
   const { scrollActualCount } = useCountSkroll();
   const isFullHDScreen = useMediaQuery({ query: "(max-width: 1920px)" });
@@ -48,10 +47,24 @@ export default function Header({ openModal }: { openModal: () => void }) {
 
   return (
     <header className={`header`}>
+      <Image
+        src={"/img/header.jpg"}
+        fill
+        style={{ objectFit: "cover", zIndex: "-1" }}
+        alt="logo"
+      />
+
       <div className="container header__container">
         <div className="header__logo">
           <Link href="" className="logo">
-            <Image src={"/img/logo.png"} width={130} height={94} alt="logo" />
+            <Image
+              src={"/img/logo.png"}
+              width={130}
+              height={94}
+              alt="logo"
+              priority
+              quality={65}
+            />
           </Link>
           <h4 className={`${carlito.className} header__address .header__hours`}>
             <span>{t("home:addres")}</span>
