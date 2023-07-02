@@ -51,7 +51,7 @@ export default function Header({ openModal }: { openModal: () => void }) {
       <div className="container header__container">
         <div className="header__logo">
           <Link href="" className="logo">
-            <Image src={"/img/logo.png"} width={130} height={94} alt="logo" />
+            <Image src={"/img/logo.webp"} width={130} height={94} alt="logo" />
           </Link>
           <h4 className={`${carlito.className} header__address .header__hours`}>
             <span>{t("home:addres")}</span>

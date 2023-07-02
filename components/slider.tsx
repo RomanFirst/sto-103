@@ -12,11 +12,11 @@ export default function Slider() {
   const date = [
     {
       content: t("home:freediagnostic"),
-      backgroundImage: "/img/slider/1.png",
+      backgroundImage: "/img/slider/free.webp",
     },
     {
       content: t("home:carwash"),
-      backgroundImage: "/img/slider/2.png",
+      backgroundImage: "/img/slider/wash.webp",
     },
   ];
 

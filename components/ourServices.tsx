@@ -9,23 +9,23 @@ export default function OurServices({ openModal }: { openModal: () => void }) {
   const { t, lang } = useTranslation("");
   const date = [
     {
-      imageUrl: "/img/1.png",
+      imageUrl: "/img/running.webp",
       text: t("home:runninggearrepair"),
     },
     {
-      imageUrl: "/img/2.png",
+      imageUrl: "/img/replacement.webp",
       text: t("home:replace"),
     },
     {
-      imageUrl: "/img/3.png",
+      imageUrl: "/img/icerepeir.webp",
       text: t("home:repairICE"),
     },
     {
-      imageUrl: "/img/4.png",
+      imageUrl: "/img/changeoil.webp",
       text: t("home:changeOfOil"),
     },
     {
-      imageUrl: "/img/5.png",
+      imageUrl: "/img/wheel.webp",
       text: t("home:wheelalignment3D"),
     },
   ];

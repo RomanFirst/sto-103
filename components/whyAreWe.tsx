@@ -11,7 +11,7 @@ export default function WhyAreWe() {
       <div className={`${carlito.className} all__icon`}>
         <div className="experienced__specialists">
           <Image
-            src={"/img/icon/1.png"}
+            src={"/img/icon/experienced.webp"}
             width={95}
             height={100}
             alt="Experienced specialists"
@@ -20,7 +20,7 @@ export default function WhyAreWe() {
         </div>
         <div className="saving__time">
           <Image
-            src={"/img/icon/2.png"}
+            src={"/img/icon/save.webp"}
             width={95}
             height={100}
             alt="we save your time"
@@ -29,7 +29,7 @@ export default function WhyAreWe() {
         </div>
         <div className="open__week">
           <Image
-            src={"/img/icon/3.png"}
+            src={"/img/icon/open.webp"}
             width={95}
             height={100}
             alt="Open for you 7 days a week"
@@ -38,7 +38,7 @@ export default function WhyAreWe() {
         </div>
         <div className="all__brands">
           <Image
-            src={"/img/icon/4.png"}
+            src={"/img/icon/service.webp"}
             width={95}
             height={100}
             alt="Service for cars of all brands"
