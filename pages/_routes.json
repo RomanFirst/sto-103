@@ -1,0 +1,11 @@
+{
+  "test": {
+    "en": "Test",
+    "ru": "TestRu"
+  },
+
+  "lofd": {
+    "en": "lofd",
+    "ru": "loftRu"
+  }
+}
