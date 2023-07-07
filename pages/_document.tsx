@@ -14,7 +14,7 @@ export default function Document() {
           title: "Garage 103",
           images: [
             {
-              url: "/img/logo.png",
+              url: "https://sto-103.vercel.app/img/logo.png",
               alt: "logo",
             },
           ],
