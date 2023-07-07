@@ -13,7 +13,7 @@ const carlito = Carlito({ subsets: ["cyrillic"], weight: "400" });
 
 export default function Header({ openModal }: { openModal: () => void }) {
   const { t, lang } = useTranslation("");
-
+  console.log("test");
   const { scrollActualCount } = useCountSkroll();
   const isFullHDScreen = useMediaQuery({ query: "(max-width: 1920px)" });
 
