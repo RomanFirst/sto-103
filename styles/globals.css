@@ -16,9 +16,6 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../public/img/header.jpg);
   height: 100vh;
   min-height: 900px;
 }
