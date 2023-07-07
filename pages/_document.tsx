@@ -8,9 +8,10 @@ export default function Document() {
   return (
     <Html lang={lang}>
       <DefaultSeo
+        title="Garage 103"
+        description={t("home:descriptionSEO")}
         openGraph={{
           title: "Garage 103",
-          description: t("home:descriptionSEO"),
           images: [
             {
               url: "https://sto-103.vercel.app/img/logo.png",
