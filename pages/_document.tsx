@@ -14,14 +14,17 @@ export default function Document() {
           title: "Garage 103",
           images: [
             {
-              url: "https://sto-103.vercel.app/img/logo.png",
+              url: "/img/logo.png",
               alt: "logo",
             },
           ],
           url: "https://sto-103.vercel.app",
         }}
       />
-      <Head />
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body id="body">
         <Main />
         <NextScript />

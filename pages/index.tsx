@@ -1,7 +1,6 @@
 import Header from "@/components/header";
 import ModalFormCall from "@/components/modalFormCall";
 import dynamic from "next/dynamic";
-import Head from "next/head";
 import { useState } from "react";
 import { MoonLoader } from "react-spinners";
 
@@ -26,10 +25,6 @@ export default function Home() {
   };
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Header openModal={openModal} />
       <main>
         <OurServices openModal={openModal} />
